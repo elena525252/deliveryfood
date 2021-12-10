@@ -21,7 +21,7 @@
             <input type="text" class="input input-adress" placeholder="Адрес доставки">
             <div class="buttons header__buttons">
                 <button class="button button__man button--primary">Войти</button>
-                <button class="button button__cart button--secondary">Корзина</button>
+                <button class="button button__cart button--secondary" id="cart">Корзина</button>
             </div>
             <!-- /.buttons -->
         </div>
@@ -203,93 +203,121 @@
         <!-- /.container -->
     </footer>
     <!-- /.section__footer -->
-    <div class="modal">
-        <div class="modal-block">
-            <div class="cart-and-close">
+    <div class="modal modal--close">
+        <div class="modal-window">
+            <div class="modal-header">
                 <h2 class="modal-title">Корзина</h2>
-                <button class="button-closed"></button>
+                <button class="btn-close" id="close-modal"></button>
             </div>
-            <div class="modal-body">
-                <div class="cart-string">
-                    <h3 class="name-dish">Ролл угорь стандарт</h3>
-                    <div class="price-count">
-                        <strong class="price-dish">249</strong>
-                        <div class="count-block">
-                            <button class="button-count minus">-</button>
-                            <span class="count">1</span>
-                            <button class="button-count plus">+</button>
+            <!-- /.modal-header -->
+            <div class="modal-main">
+                <div class="row">
+                    <p class="product-name">Ролл угорь стандарт</p>
+                    <div class="row-right">
+                        <div class="price-product">
+                            <strong class="price">250</strong>
+                            <span class="rub">₽</span> 
+                        </div>
+                          
+                        <div class="counter">
+                            <button class="btn-count-minus btn-count">-</button>
+                            <span class="count"> 1</span>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
-                </div>
                 <!-- /.cart-string -->
-                <div class="cart-string">
-                    <h3 class="name-dish">Ролл угорь стандарт</h3>
-                    <div class="price-count">
-                        <strong class="price-dish">249</strong>
-                        <div class="count-block">
-                            <button class="button-count minus">-</button>
-                            <span class="count">1</span>
-                            <button class="button-count plus">+</button>
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <p class="product-name">Ролл угорь стандарт</p>
+                    <div class="row-right">
+                        <div class="price-product">
+                            <strong class="price">250</strong>
+                            <span class="rub">₽</span> 
+                        </div>
+                          
+                        <div class="counter">
+                            <button class="btn-count-minus btn-count">-</button>
+                            <span class="count"> 1</span>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
-                </div>
                 <!-- /.cart-string -->
-                <div class="cart-string">
-                    <h3 class="name-dish">Ролл угорь стандарт</h3>
-                    <div class="price-count">
-                        <strong class="price-dish">249</strong>
-                        <div class="count-block">
-                            <button class="button-count minus">-</button>
-                            <span class="count">1</span>
-                            <button class="button-count plus">+</button>
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <p class="product-name">Ролл угорь стандарт</p>
+                    <div class="row-right">
+                        <div class="price-product">
+                            <strong class="price">250</strong>
+                            <span class="rub">₽</span> 
+                        </div>
+                          
+                        <div class="counter">
+                            <button class="btn-count-minus btn-count">-</button>
+                            <span class="count"> 1</span>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
-                </div>
                 <!-- /.cart-string -->
-                <div class="cart-string">
-                    <h3 class="name-dish">Ролл угорь стандарт</h3>
-                    <div class="price-count">
-                        <strong class="price-dish">249</strong>
-                        <div class="count-block">
-                            <button class="button-count minus">-</button>
-                            <span class="count">1</span>
-                            <button class="button-count plus">+</button>
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <p class="product-name">Ролл угорь стандарт</p>
+                    <div class="row-right">
+                        <div class="price-product">
+                            <strong class="price">250</strong>
+                            <span class="rub">₽</span> 
+                        </div>
+                          
+                        <div class="counter">
+                            <button class="btn-count-minus btn-count">-</button>
+                            <span class="count"> 1</span>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
-                </div>
                 <!-- /.cart-string -->
-                <div class="cart-string">
-                    <h3 class="name-dish">Ролл угорь стандарт</h3>
-                    <div class="price-count">
-                        <strong class="price-dish">249</strong>
-                        <div class="count-block">
-                            <button class="button-count minus">-</button>
-                            <span class="count">1</span>
-                            <button class="button-count plus">+</button>
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <p class="product-name">Ролл угорь стандарт</p>
+                    <div class="row-right">
+                        <div class="price-product">
+                            <strong class="price">250</strong>
+                            <span class="rub">₽</span> 
+                        </div>
+                          
+                        <div class="counter">
+                            <button class="btn-count-minus btn-count">-</button>
+                            <span class="count"> 1</span>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
-                </div>
                 <!-- /.cart-string -->
+                </div>
+                <!-- /.row -->
+                
             </div>
-            <!-- /.body -->
+            <!-- /.modal-main -->
             <div class="modal-footer">
-                <div class="fullprice_container">
-                    <strong class="fullprice">1250</strong>
+                <div class="sum">
+                    <h3 class="modal-sum">1250</h3>
+                    <span class="rub-sum">₽</span>
                 </div>
-                <div class="buttons-modal--footer">
-                    <button class="button button--primary">Оформить заказ</button>
-                    <button id="cancelButton" class="button button--secondary button-cancel">Отмена</button>
+                <div class="buttons">
+                    <button class="button button--primary button__wo__icon">Оформить заказ</button>
+                    <button class="button button--secondary button__wo__icon cart-popup__bottom-cancel">Отмена</button>
                 </div>
-                <!-- /.buttons-modal--footer -->
+                <!-- /.buttons -->
             </div>
             <!-- /.modal-footer -->
         </div>
-        <!-- /.modal-block -->
+        <!-- /.modal-window -->
     </div>
     <!-- /.modal -->
 </body>
